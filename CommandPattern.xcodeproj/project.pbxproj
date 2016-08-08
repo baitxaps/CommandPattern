@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		773C40921D4AE6E100EBC5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40911D4AE6E100EBC5BE /* main.m */; };
+		773C409A1D4AE82500EBC5BE /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40991D4AE82500EBC5BE /* Group.m */; };
+		773C409D1D4AEA3900EBC5BE /* RequirementGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C409C1D4AEA3900EBC5BE /* RequirementGroup.m */; };
+		773C40A01D4AFCD400EBC5BE /* PageGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C409F1D4AFCD400EBC5BE /* PageGroup.m */; };
+		773C40A31D4B018B00EBC5BE /* CodeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40A21D4B018B00EBC5BE /* CodeGroup.m */; };
+		773C40A71D4B0BE600EBC5BE /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40A61D4B0BE600EBC5BE /* Command.m */; };
+		773C40AA1D4B0D2A00EBC5BE /* AddRequirementCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40A91D4B0D2A00EBC5BE /* AddRequirementCommand.m */; };
+		773C40AD1D4B157200EBC5BE /* DeletePageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40AC1D4B157200EBC5BE /* DeletePageCommand.m */; };
+		773C40B11D4B168A00EBC5BE /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C40B01D4B168A00EBC5BE /* Invoker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,24 @@
 /* Begin PBXFileReference section */
 		773C408E1D4AE6E100EBC5BE /* CommandPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		773C40911D4AE6E100EBC5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		773C40981D4AE82500EBC5BE /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		773C40991D4AE82500EBC5BE /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		773C409B1D4AEA3900EBC5BE /* RequirementGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequirementGroup.h; sourceTree = "<group>"; };
+		773C409C1D4AEA3900EBC5BE /* RequirementGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequirementGroup.m; sourceTree = "<group>"; };
+		773C409E1D4AFCD400EBC5BE /* PageGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageGroup.h; sourceTree = "<group>"; };
+		773C409F1D4AFCD400EBC5BE /* PageGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageGroup.m; sourceTree = "<group>"; };
+		773C40A11D4B018B00EBC5BE /* CodeGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGroup.h; sourceTree = "<group>"; };
+		773C40A21D4B018B00EBC5BE /* CodeGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeGroup.m; sourceTree = "<group>"; };
+		773C40A51D4B0BE600EBC5BE /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		773C40A61D4B0BE600EBC5BE /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		773C40A81D4B0D2A00EBC5BE /* AddRequirementCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRequirementCommand.h; sourceTree = "<group>"; };
+		773C40A91D4B0D2A00EBC5BE /* AddRequirementCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRequirementCommand.m; sourceTree = "<group>"; };
+		773C40AB1D4B157200EBC5BE /* DeletePageCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeletePageCommand.h; sourceTree = "<group>"; };
+		773C40AC1D4B157200EBC5BE /* DeletePageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeletePageCommand.m; sourceTree = "<group>"; };
+		773C40AF1D4B168A00EBC5BE /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		773C40B01D4B168A00EBC5BE /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		773C40B21D4B1A7200EBC5BE /* command_pattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command_pattern002.png; sourceTree = "<group>"; };
+		773C40B31D4B1A7800EBC5BE /* command_pattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command_pattern001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,8 @@
 		773C40851D4AE6E100EBC5BE = {
 			isa = PBXGroup;
 			children = (
+				773C40AE1D4B166F00EBC5BE /* Invoker */,
+				773C40A41D4B025C00EBC5BE /* Command */,
 				773C40901D4AE6E100EBC5BE /* CommandPattern */,
 				773C408F1D4AE6E100EBC5BE /* Products */,
 			);
@@ -58,8 +86,40 @@
 			isa = PBXGroup;
 			children = (
 				773C40911D4AE6E100EBC5BE /* main.m */,
+				773C40981D4AE82500EBC5BE /* Group.h */,
+				773C40991D4AE82500EBC5BE /* Group.m */,
+				773C409B1D4AEA3900EBC5BE /* RequirementGroup.h */,
+				773C409C1D4AEA3900EBC5BE /* RequirementGroup.m */,
+				773C409E1D4AFCD400EBC5BE /* PageGroup.h */,
+				773C409F1D4AFCD400EBC5BE /* PageGroup.m */,
+				773C40A11D4B018B00EBC5BE /* CodeGroup.h */,
+				773C40A21D4B018B00EBC5BE /* CodeGroup.m */,
 			);
 			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+		773C40A41D4B025C00EBC5BE /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				773C40B31D4B1A7800EBC5BE /* command_pattern001.png */,
+				773C40B21D4B1A7200EBC5BE /* command_pattern002.png */,
+				773C40A51D4B0BE600EBC5BE /* Command.h */,
+				773C40A61D4B0BE600EBC5BE /* Command.m */,
+				773C40A81D4B0D2A00EBC5BE /* AddRequirementCommand.h */,
+				773C40A91D4B0D2A00EBC5BE /* AddRequirementCommand.m */,
+				773C40AB1D4B157200EBC5BE /* DeletePageCommand.h */,
+				773C40AC1D4B157200EBC5BE /* DeletePageCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		773C40AE1D4B166F00EBC5BE /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				773C40AF1D4B168A00EBC5BE /* Invoker.h */,
+				773C40B01D4B168A00EBC5BE /* Invoker.m */,
+			);
+			path = Invoker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773C40A31D4B018B00EBC5BE /* CodeGroup.m in Sources */,
+				773C40AA1D4B0D2A00EBC5BE /* AddRequirementCommand.m in Sources */,
+				773C40A71D4B0BE600EBC5BE /* Command.m in Sources */,
+				773C40A01D4AFCD400EBC5BE /* PageGroup.m in Sources */,
+				773C409D1D4AEA3900EBC5BE /* RequirementGroup.m in Sources */,
+				773C40AD1D4B157200EBC5BE /* DeletePageCommand.m in Sources */,
+				773C40B11D4B168A00EBC5BE /* Invoker.m in Sources */,
 				773C40921D4AE6E100EBC5BE /* main.m in Sources */,
+				773C409A1D4AE82500EBC5BE /* Group.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
